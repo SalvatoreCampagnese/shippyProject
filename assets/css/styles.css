@@ -1,0 +1,36 @@
+body{
+    background-color: #92bacc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+body form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+
+body form p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body form select{
+    width: 80%;
+    padding: 10px;
+}
+
+body form button{
+    padding: 10px 30px;
+    margin-top: 20px;
+}
